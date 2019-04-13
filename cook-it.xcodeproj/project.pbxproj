@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205F4705225FBC71006B8264 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F4704225FBC71006B8264 /* User.swift */; };
+		205F4707225FBDE6006B8264 /* FoodProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F4706225FBDE6006B8264 /* FoodProfile.swift */; };
+		205F4709225FC2A9006B8264 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F4708225FC2A9006B8264 /* Recipe.swift */; };
+		205F470B225FE7E6006B8264 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F470A225FE7E6006B8264 /* Ingredient.swift */; };
+		205F470E225FEA40006B8264 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F470D225FEA40006B8264 /* Helpers.swift */; };
+		205F4710226007A7006B8264 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F470F226007A7006B8264 /* Equipment.swift */; };
+		205F47122260092B006B8264 /* RecipeInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F47112260092B006B8264 /* RecipeInstruction.swift */; };
 		20E2EDF3225FAD2F000A4E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E2EDF2225FAD2F000A4E45 /* AppDelegate.swift */; };
 		20E2EDF5225FAD2F000A4E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E2EDF4225FAD2F000A4E45 /* ViewController.swift */; };
 		20E2EDF8225FAD2F000A4E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF6225FAD2F000A4E45 /* Main.storyboard */; };
 		20E2EDFA225FAD30000A4E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF9225FAD30000A4E45 /* Assets.xcassets */; };
 		20E2EDFD225FAD30000A4E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDFB225FAD30000A4E45 /* LaunchScreen.storyboard */; };
+		646A6D4E33F2AC9183FBB115 /* Pods_cook_it.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B495FA70EDC08717AB63F2F1 /* Pods_cook_it.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		205F4704225FBC71006B8264 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		205F4706225FBDE6006B8264 /* FoodProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProfile.swift; sourceTree = "<group>"; };
+		205F4708225FC2A9006B8264 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		205F470A225FE7E6006B8264 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		205F470D225FEA40006B8264 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		205F470F226007A7006B8264 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		205F47112260092B006B8264 /* RecipeInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInstruction.swift; sourceTree = "<group>"; };
 		20E2EDEF225FAD2F000A4E45 /* cook-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cook-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E2EDF2225FAD2F000A4E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20E2EDF4225FAD2F000A4E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,9 @@
 		20E2EDF9225FAD30000A4E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E2EDFC225FAD30000A4E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E2EDFE225FAD30000A4E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E64DBB139C58D82FAC7C97B /* Pods-cook-it.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cook-it.debug.xcconfig"; path = "Target Support Files/Pods-cook-it/Pods-cook-it.debug.xcconfig"; sourceTree = "<group>"; };
+		B495FA70EDC08717AB63F2F1 /* Pods_cook_it.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cook_it.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7914A38889B58465AAAC73A /* Pods-cook-it.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cook-it.release.xcconfig"; path = "Target Support Files/Pods-cook-it/Pods-cook-it.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646A6D4E33F2AC9183FBB115 /* Pods_cook_it.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		205F46FF225FBB86006B8264 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				205F4704225FBC71006B8264 /* User.swift */,
+				205F4706225FBDE6006B8264 /* FoodProfile.swift */,
+				205F4708225FC2A9006B8264 /* Recipe.swift */,
+				205F470A225FE7E6006B8264 /* Ingredient.swift */,
+				205F470F226007A7006B8264 /* Equipment.swift */,
+				205F47112260092B006B8264 /* RecipeInstruction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		205F4700225FBBD8006B8264 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		205F4701225FBC07006B8264 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		205F4702225FBC20006B8264 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		205F4703225FBC47006B8264 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		205F470C225FEA0B006B8264 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				205F470D225FEA40006B8264 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		205F471322600FF1006B8264 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		20E2EDE6225FAD2E000A4E45 = {
 			isa = PBXGroup;
 			children = (
 				20E2EDF1225FAD2F000A4E45 /* cook-it */,
 				20E2EDF0225FAD2F000A4E45 /* Products */,
+				2883124A863E2D394396449E /* Pods */,
+				44BA3521C70A76AB7B187F6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +131,13 @@
 		20E2EDF1225FAD2F000A4E45 /* cook-it */ = {
 			isa = PBXGroup;
 			children = (
+				205F471322600FF1006B8264 /* Protocols */,
+				205F470C225FEA0B006B8264 /* Helpers */,
+				205F4703225FBC47006B8264 /* Services */,
+				205F4702225FBC20006B8264 /* Extensions */,
+				205F4701225FBC07006B8264 /* Controllers */,
+				205F4700225FBBD8006B8264 /* Views */,
+				205F46FF225FBB86006B8264 /* Models */,
 				20E2EDF2225FAD2F000A4E45 /* AppDelegate.swift */,
 				20E2EDF4225FAD2F000A4E45 /* ViewController.swift */,
 				20E2EDF6225FAD2F000A4E45 /* Main.storyboard */,
@@ -64,6 +148,23 @@
 			path = "cook-it";
 			sourceTree = "<group>";
 		};
+		2883124A863E2D394396449E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E64DBB139C58D82FAC7C97B /* Pods-cook-it.debug.xcconfig */,
+				D7914A38889B58465AAAC73A /* Pods-cook-it.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44BA3521C70A76AB7B187F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B495FA70EDC08717AB63F2F1 /* Pods_cook_it.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20E2EE01225FAD30000A4E45 /* Build configuration list for PBXNativeTarget "cook-it" */;
 			buildPhases = (
+				1EBCB4D4079CFA957E7094C5 /* [CP] Check Pods Manifest.lock */,
 				20E2EDEB225FAD2E000A4E45 /* Sources */,
 				20E2EDEC225FAD2E000A4E45 /* Frameworks */,
 				20E2EDED225FAD2E000A4E45 /* Resources */,
+				7022F18FB9670815CA1BC006 /* [CP] Embed Pods Frameworks */,
+				4979EEADAFB8E69059257FFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +234,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EBCB4D4079CFA957E7094C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cook-it-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4979EEADAFB8E69059257FFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cook-it/Pods-cook-it-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cook-it/Pods-cook-it-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7022F18FB9670815CA1BC006 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cook-it/Pods-cook-it-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickLayout/QuickLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftEntryKit/SwiftEntryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEntryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cook-it/Pods-cook-it-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20E2EDEB225FAD2E000A4E45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20E2EDF5225FAD2F000A4E45 /* ViewController.swift in Sources */,
+				205F470E225FEA40006B8264 /* Helpers.swift in Sources */,
+				205F47122260092B006B8264 /* RecipeInstruction.swift in Sources */,
+				205F4710226007A7006B8264 /* Equipment.swift in Sources */,
+				205F4707225FBDE6006B8264 /* FoodProfile.swift in Sources */,
+				205F470B225FE7E6006B8264 /* Ingredient.swift in Sources */,
 				20E2EDF3225FAD2F000A4E45 /* AppDelegate.swift in Sources */,
+				205F4705225FBC71006B8264 /* User.swift in Sources */,
+				205F4709225FC2A9006B8264 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +492,7 @@
 		};
 		20E2EE02225FAD30000A4E45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E64DBB139C58D82FAC7C97B /* Pods-cook-it.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +511,7 @@
 		};
 		20E2EE03225FAD30000A4E45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7914A38889B58465AAAC73A /* Pods-cook-it.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
