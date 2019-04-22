@@ -21,6 +21,7 @@
 		20E2EDF8225FAD2F000A4E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF6225FAD2F000A4E45 /* Main.storyboard */; };
 		20E2EDFA225FAD30000A4E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF9225FAD30000A4E45 /* Assets.xcassets */; };
 		20E2EDFD225FAD30000A4E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDFB225FAD30000A4E45 /* LaunchScreen.storyboard */; };
+		20E908DA226E67850083B70D /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E908D9226E67850083B70D /* TestTableViewCell.swift */; };
 		646A6D4E33F2AC9183FBB115 /* Pods_cook_it.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B495FA70EDC08717AB63F2F1 /* Pods_cook_it.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		20E2EDF9225FAD30000A4E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E2EDFC225FAD30000A4E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E2EDFE225FAD30000A4E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E908D9226E67850083B70D /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		5E64DBB139C58D82FAC7C97B /* Pods-cook-it.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cook-it.debug.xcconfig"; path = "Target Support Files/Pods-cook-it/Pods-cook-it.debug.xcconfig"; sourceTree = "<group>"; };
 		B495FA70EDC08717AB63F2F1 /* Pods_cook_it.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cook_it.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7914A38889B58465AAAC73A /* Pods-cook-it.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cook-it.release.xcconfig"; path = "Target Support Files/Pods-cook-it/Pods-cook-it.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		205F4700225FBBD8006B8264 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				20E908D9226E67850083B70D /* TestTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				205F470E225FEA40006B8264 /* Helpers.swift in Sources */,
 				205F47122260092B006B8264 /* RecipeInstruction.swift in Sources */,
 				205F4710226007A7006B8264 /* Equipment.swift in Sources */,
+				20E908DA226E67850083B70D /* TestTableViewCell.swift in Sources */,
 				205F4707225FBDE6006B8264 /* FoodProfile.swift in Sources */,
 				205F470B225FE7E6006B8264 /* Ingredient.swift in Sources */,
 				20E2EDF3225FAD2F000A4E45 /* AppDelegate.swift in Sources */,

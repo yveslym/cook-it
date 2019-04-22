@@ -17,17 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        Network.FoodApi(service: .searchRecipe(query: "chicken nugget")) { (result) in
-            switch result{
-                
-            case .success(let food):
-                
-                print(food)
-                
-            case .failure(_):
-                return
-            }
-        }
+        
         
         return true
     }

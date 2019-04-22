@@ -23,8 +23,8 @@ struct Network{
                 case .searchRecipe(_):
                     let data = response.data
                     do {
-                    let recipes = try JSONDecoder().decode([Recipe].self, from: data)
-                    return completionHandler(.success(recipes))
+                    let recipes = try JSONDecoder().decode(SearchRecipeResult.self, from: data)
+                    return completionHandler(.success(recipes.results))
                     }
                     catch{
                          return completionHandler(.failure(FoodError.cannotDecode))
@@ -41,5 +41,7 @@ struct Network{
 }
 
 enum FoodError: Error{
+    
     case cannotDecode
+    
 }

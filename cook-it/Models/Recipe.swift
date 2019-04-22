@@ -11,11 +11,11 @@ import Foundation
 struct Recipe: Codable{
     let id: Int
     let title: String
-    var image: String 
-    var imageUrl: URL?
-    let calories: Int
-    let protein: Int
-    let fat: Int
+//    var image: String?
+//    var imageUrl: URL?
+    let calories: Int?
+    let protein: Int?
+    let fat: Int?
     let readyInMinutes: Int
     let servings: Int
     let vegetarian: Bool?
@@ -34,4 +34,9 @@ struct Recipe: Codable{
     let diets: [String]?
     let occasions: [String]?
     let creditsText: String?
+    let imageUrls: [String]?
+}
+
+struct SearchRecipeResult: Decodable{
+    let results: [Recipe]
 }

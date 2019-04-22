@@ -58,7 +58,7 @@ extension RecipeServices: TargetType{
     var headers: [String : String]? {
         
         switch self{
-        case .searchRecipe(_), .getRecipeInformation(_): return ["Content-type": "application/json"]
+        case .searchRecipe(_), .getRecipeInformation(_): return ["Content-type": "application/json", "X-RapidAPI-Key": ""]
         }
     }
     
