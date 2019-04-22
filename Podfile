@@ -8,9 +8,9 @@ target 'cook-it' do
   # Pods for cook-it
 
 	#pod 'ChameleonFramework/Swift'
-	pod "PromiseKit", '~> 6.8'
-	pod 'SnapKit', '~> 4.0.0'
-	pod 'Firebase/Core'
+      pod 'PromiseKit', '~> 6.8'
+      pod 'SnapKit', '~> 4.0.0'
+      pod 'Firebase/Core'
     	pod 'Firebase/Auth'
     	pod 'FirebaseUI/Auth'
     	pod 'Firebase/Database'
@@ -18,8 +18,9 @@ target 'cook-it' do
     	pod 'GoogleSignIn'
     	pod 'FBSDKLoginKit'
     	pod 'GTMAppAuth'
-	pod 'Kingfisher'
-	pod 'IQKeyboardManagerSwift'
-	pod 'SwiftEntryKit'
+      pod 'Kingfisher'
+      pod 'IQKeyboardManagerSwift'
+      pod 'SwiftEntryKit'
+      pod 'Moya'
 
 end

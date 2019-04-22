@@ -43,3 +43,14 @@ enum RecipeImageSize: String{
     case _556x370 = "-556x370"
     case _636x393 = "-636x393"
 }
+
+// MARK: - Helpers
+private extension String {
+    var urlEscaped: String {
+        return addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
+    }
+    
+    var utf8Encoded: Data {
+        return data(using: .utf8)!
+    }
+}
