@@ -18,10 +18,20 @@ struct Network{
                 return completionHandler(.failure(err))
                 
             case .success(let response):
+                if response.statusCode > 201 {
+                    do {
+                        let error = try JSONDecoder().decode(FoodErrorModel.self, from: response.data)
+                        return completionHandler(.failure(error))
+                    }
+                    catch{
+                        return completionHandler(.failure(FoodError.cannotDecode))
+                    }
+                }
+                let data = response.data
                 switch service{
                     
                 case .searchRecipe(_):
-                    let data = response.data
+                   
                     do {
                     let recipes = try JSONDecoder().decode(SearchRecipeResult.self, from: data)
                     return completionHandler(.success(recipes.results))
@@ -32,16 +42,28 @@ struct Network{
                     
                 case .getRecipeInformation(_):
                     return completionHandler(.failure(FoodError.cannotDecode))
+                    
+                case .anilyzedRecipe(_):
+                    
+                    do{
+                        let recipeInst = try JSONDecoder().decode([RecipeInstruction].self, from: data)
+                        return completionHandler(.success(recipeInst))
+                    }
+                    catch{
+                          return completionHandler(.failure(FoodError.cannotDecode))
+                    }
+                case .recipeInformation(_):
+                    do{
+                        let recipe = try JSONDecoder().decode(Recipe.self, from: data)
+                        return completionHandler(.success(recipe))
+                    }
+                    catch{
+                        return completionHandler(.failure(FoodError.cannotDecode))
+                    }
                 }
-           
             }
         }
         
     }
 }
 
-enum FoodError: Error{
-    
-    case cannotDecode
-    
-}

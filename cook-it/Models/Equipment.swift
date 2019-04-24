@@ -9,7 +9,7 @@
 import Foundation
 
 struct Equipment: Codable {
-    let amount: Double
+    let amount: Double?
     let id: Int
-    let image: Int
+    let image: String
 }

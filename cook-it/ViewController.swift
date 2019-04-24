@@ -62,6 +62,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 print(error)
             }
         }
+        
+        Network.FoodApi(service: .recipeInformation(id: 892046)) { (result) in
+            print(result)
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
