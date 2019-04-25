@@ -44,8 +44,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        getData()
+        let user = User.current
+        login()
+        //getData()
         
+    }
+    
+    func login (){
+        let user = User.init(firstName: "yves", lastName: "Songolo", username: "yveslym", id: "")
+        let service = UserService()
+//        service.signIn(user)
     }
 
     func getData() {

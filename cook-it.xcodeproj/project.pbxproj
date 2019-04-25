@@ -21,6 +21,17 @@
 		20E2EDF8225FAD2F000A4E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF6225FAD2F000A4E45 /* Main.storyboard */; };
 		20E2EDFA225FAD30000A4E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF9225FAD30000A4E45 /* Assets.xcassets */; };
 		20E2EDFD225FAD30000A4E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDFB225FAD30000A4E45 /* LaunchScreen.storyboard */; };
+		20E663D72270ECD70078EA79 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663D62270ECD70078EA79 /* UserService.swift */; };
+		20E663E12270F13B0078EA79 /* Date+String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663D82270F13A0078EA79 /* Date+String+Extension.swift */; };
+		20E663E22270F13B0078EA79 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663D92270F13B0078EA79 /* UIColor+Extension.swift */; };
+		20E663E32270F13B0078EA79 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663DA2270F13B0078EA79 /* Int+Extension.swift */; };
+		20E663E42270F13B0078EA79 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663DB2270F13B0078EA79 /* UIView+Extension.swift */; };
+		20E663E52270F13B0078EA79 /* JSONDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663DC2270F13B0078EA79 /* JSONDecoder+Extension.swift */; };
+		20E663E62270F13B0078EA79 /* UIViewControllers+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663DD2270F13B0078EA79 /* UIViewControllers+Extension.swift */; };
+		20E663E72270F13B0078EA79 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663DE2270F13B0078EA79 /* String+Extensions.swift */; };
+		20E663E82270F13B0078EA79 /* JSONEncoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663DF2270F13B0078EA79 /* JSONEncoder+Extension.swift */; };
+		20E663E92270F13B0078EA79 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E663E02270F13B0078EA79 /* Date+Extensions.swift */; };
+		20E663EE2270F99A0078EA79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20E663ED2270F9990078EA79 /* GoogleService-Info.plist */; };
 		20E908DA226E67850083B70D /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E908D9226E67850083B70D /* TestTableViewCell.swift */; };
 		20E908DC226E8B3D0083B70D /* FoodError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E908DB226E8B3D0083B70D /* FoodError.swift */; };
 		646A6D4E33F2AC9183FBB115 /* Pods_cook_it.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B495FA70EDC08717AB63F2F1 /* Pods_cook_it.framework */; };
@@ -43,6 +54,17 @@
 		20E2EDF9225FAD30000A4E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E2EDFC225FAD30000A4E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E2EDFE225FAD30000A4E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E663D62270ECD70078EA79 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		20E663D82270F13A0078EA79 /* Date+String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+String+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/Date+String+Extension.swift"; sourceTree = "<group>"; };
+		20E663D92270F13B0078EA79 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		20E663DA2270F13B0078EA79 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/Int+Extension.swift"; sourceTree = "<group>"; };
+		20E663DB2270F13B0078EA79 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
+		20E663DC2270F13B0078EA79 /* JSONDecoder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "JSONDecoder+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/JSONDecoder+Extension.swift"; sourceTree = "<group>"; };
+		20E663DD2270F13B0078EA79 /* UIViewControllers+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewControllers+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/UIViewControllers+Extension.swift"; sourceTree = "<group>"; };
+		20E663DE2270F13B0078EA79 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		20E663DF2270F13B0078EA79 /* JSONEncoder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "JSONEncoder+Extension.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/JSONEncoder+Extension.swift"; sourceTree = "<group>"; };
+		20E663E02270F13B0078EA79 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extensions.swift"; path = "../../../../../Desktop/remindMe/remindMe/Extensions/Date+Extensions.swift"; sourceTree = "<group>"; };
+		20E663ED2270F9990078EA79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/fonts/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20E908D9226E67850083B70D /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		20E908DB226E8B3D0083B70D /* FoodError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodError.swift; sourceTree = "<group>"; };
 		5E64DBB139C58D82FAC7C97B /* Pods-cook-it.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cook-it.debug.xcconfig"; path = "Target Support Files/Pods-cook-it/Pods-cook-it.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +89,7 @@
 			children = (
 				200207132267A42B004AD2D5 /* RecipeServices.swift */,
 				20BA28F5226D100A00A0E737 /* Networking.swift */,
+				20E663D62270ECD70078EA79 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -96,6 +119,15 @@
 		205F4702225FBC20006B8264 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				20E663E02270F13B0078EA79 /* Date+Extensions.swift */,
+				20E663D82270F13A0078EA79 /* Date+String+Extension.swift */,
+				20E663DA2270F13B0078EA79 /* Int+Extension.swift */,
+				20E663DC2270F13B0078EA79 /* JSONDecoder+Extension.swift */,
+				20E663DF2270F13B0078EA79 /* JSONEncoder+Extension.swift */,
+				20E663DE2270F13B0078EA79 /* String+Extensions.swift */,
+				20E663D92270F13B0078EA79 /* UIColor+Extension.swift */,
+				20E663DB2270F13B0078EA79 /* UIView+Extension.swift */,
+				20E663DD2270F13B0078EA79 /* UIViewControllers+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -136,6 +168,7 @@
 		20E2EDF1225FAD2F000A4E45 /* cook-it */ = {
 			isa = PBXGroup;
 			children = (
+				20E663EA2270F91F0078EA79 /* Support File */,
 				200207122267A410004AD2D5 /* Services */,
 				205F471322600FF1006B8264 /* Protocols */,
 				205F470C225FEA0B006B8264 /* Helpers */,
@@ -150,6 +183,14 @@
 				20E2EDFE225FAD30000A4E45 /* Info.plist */,
 			);
 			path = "cook-it";
+			sourceTree = "<group>";
+		};
+		20E663EA2270F91F0078EA79 /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				20E663ED2270F9990078EA79 /* GoogleService-Info.plist */,
+			);
+			path = "Support File";
 			sourceTree = "<group>";
 		};
 		2883124A863E2D394396449E /* Pods */ = {
@@ -231,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E2EDFD225FAD30000A4E45 /* LaunchScreen.storyboard in Resources */,
+				20E663EE2270F99A0078EA79 /* GoogleService-Info.plist in Resources */,
 				20E2EDFA225FAD30000A4E45 /* Assets.xcassets in Resources */,
 				20E2EDF8225FAD2F000A4E45 /* Main.storyboard in Resources */,
 			);
@@ -350,19 +392,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E663E62270F13B0078EA79 /* UIViewControllers+Extension.swift in Sources */,
+				20E663E72270F13B0078EA79 /* String+Extensions.swift in Sources */,
+				20E663D72270ECD70078EA79 /* UserService.swift in Sources */,
 				20E2EDF5225FAD2F000A4E45 /* ViewController.swift in Sources */,
 				20BA28F6226D100A00A0E737 /* Networking.swift in Sources */,
+				20E663E32270F13B0078EA79 /* Int+Extension.swift in Sources */,
 				20E908DC226E8B3D0083B70D /* FoodError.swift in Sources */,
 				205F470E225FEA40006B8264 /* Helpers.swift in Sources */,
 				205F47122260092B006B8264 /* RecipeInstruction.swift in Sources */,
 				205F4710226007A7006B8264 /* Equipment.swift in Sources */,
+				20E663E92270F13B0078EA79 /* Date+Extensions.swift in Sources */,
+				20E663E22270F13B0078EA79 /* UIColor+Extension.swift in Sources */,
+				20E663E12270F13B0078EA79 /* Date+String+Extension.swift in Sources */,
 				20E908DA226E67850083B70D /* TestTableViewCell.swift in Sources */,
 				205F4707225FBDE6006B8264 /* FoodProfile.swift in Sources */,
+				20E663E42270F13B0078EA79 /* UIView+Extension.swift in Sources */,
 				205F470B225FE7E6006B8264 /* Ingredient.swift in Sources */,
 				20E2EDF3225FAD2F000A4E45 /* AppDelegate.swift in Sources */,
 				200207142267A42B004AD2D5 /* RecipeServices.swift in Sources */,
+				20E663E82270F13B0078EA79 /* JSONEncoder+Extension.swift in Sources */,
 				205F4705225FBC71006B8264 /* User.swift in Sources */,
 				205F4709225FC2A9006B8264 /* Recipe.swift in Sources */,
+				20E663E52270F13B0078EA79 /* JSONDecoder+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
