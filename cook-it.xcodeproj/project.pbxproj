@@ -10,6 +10,7 @@
 		200207142267A42B004AD2D5 /* RecipeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200207132267A42B004AD2D5 /* RecipeServices.swift */; };
 		201C25B1227633A6009AE7DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 201C25B0227633A6009AE7DA /* GoogleService-Info.plist */; };
 		201C25B422763542009AE7DA /* development.plist in Resources */ = {isa = PBXBuildFile; fileRef = 201C25B322763542009AE7DA /* development.plist */; };
+		20345373227781BE0060DF6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20345372227781BE0060DF6E /* LoginViewController.swift */; };
 		205F4705225FBC71006B8264 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F4704225FBC71006B8264 /* User.swift */; };
 		205F4707225FBDE6006B8264 /* FoodProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F4706225FBDE6006B8264 /* FoodProfile.swift */; };
 		205F4709225FC2A9006B8264 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F4708225FC2A9006B8264 /* Recipe.swift */; };
@@ -46,6 +47,7 @@
 		201C25B0227633A6009AE7DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		201C25B22276343D009AE7DA /* development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = development.xcconfig; sourceTree = "<group>"; };
 		201C25B322763542009AE7DA /* development.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = development.plist; sourceTree = "<group>"; };
+		20345372227781BE0060DF6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		205F4704225FBC71006B8264 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		205F4706225FBDE6006B8264 /* FoodProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProfile.swift; sourceTree = "<group>"; };
 		205F4708225FC2A9006B8264 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -111,6 +113,14 @@
 				20C9464922763FF000494AD8 /* Environment.swift */,
 			);
 			path = "Support File";
+			sourceTree = "<group>";
+		};
+		20345371227780D30060DF6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20345372227781BE0060DF6E /* LoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		205F46FF225FBB86006B8264 /* Models */ = {
@@ -188,6 +198,7 @@
 		20E2EDF1225FAD2F000A4E45 /* cook-it */ = {
 			isa = PBXGroup;
 			children = (
+				20345371227780D30060DF6E /* Controllers */,
 				201C25AD22763350009AE7DA /* Support File */,
 				200207122267A410004AD2D5 /* Services */,
 				205F471322600FF1006B8264 /* Protocols */,
@@ -258,6 +269,7 @@
 				TargetAttributes = {
 					20E2EDEE225FAD2E000A4E45 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -430,6 +442,7 @@
 				20E663E82270F13B0078EA79 /* JSONEncoder+Extension.swift in Sources */,
 				205F4705225FBC71006B8264 /* User.swift in Sources */,
 				205F4709225FC2A9006B8264 /* Recipe.swift in Sources */,
+				20345373227781BE0060DF6E /* LoginViewController.swift in Sources */,
 				20E663E52270F13B0078EA79 /* JSONDecoder+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,7 +546,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yveslym.cook-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = development;
@@ -668,7 +681,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yveslym.cook-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -687,7 +700,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yveslym.cook-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

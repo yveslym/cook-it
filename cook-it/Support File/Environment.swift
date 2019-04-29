@@ -26,12 +26,15 @@ struct Environment {
             
         case .rapidApiKey:
             return infoDict[PlistKeys.rapidApiKey.value] as! String
+        case .basedFoodApiUrl:
+            return infoDict[PlistKeys.basedFoodApiUrl.value] as! String
         }
     }
 }
 
 public enum PlistKeys{
     case rapidApiKey
+    case basedFoodApiUrl
     
     var value: String{
         
@@ -39,6 +42,8 @@ public enum PlistKeys{
             
         case .rapidApiKey:
             return "RapidApiKey"
+        case .basedFoodApiUrl:
+            return "RapidApiBaseUrl"
         }
     }
 }

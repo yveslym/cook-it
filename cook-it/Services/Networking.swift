@@ -20,6 +20,7 @@ struct Network: DecodeModel{
             case .failure(let err):
                 return completionHandler(.failure(err))
                 
+                
             case .success(let response):
                 if response.statusCode > 201 {
                     do {
@@ -34,7 +35,7 @@ struct Network: DecodeModel{
                 let data = response.data
                 
                 if let decoded = self.decodeFoodModel(service: service, data: data){
-                    completionHandler(.success(decoded as! Recipe))
+                    completionHandler(.success(decoded as Any))
                 }
                 else {
                     completionHandler(.failure(FoodError.cannotDecode))

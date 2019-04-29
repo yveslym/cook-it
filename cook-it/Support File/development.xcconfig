@@ -9,3 +9,4 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 apikey = QGHa5k3d0KmshSN9f8uhv3XmY2sDp1MyvmRjsnYGp5ZAyfmisj
+foodApiBaseUrl = https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/
