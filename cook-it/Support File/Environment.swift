@@ -38,7 +38,7 @@ public enum PlistKeys{
         switch self {
             
         case .rapidApiKey:
-            return "apikey"
+            return "RapidApiKey"
         }
     }
 }

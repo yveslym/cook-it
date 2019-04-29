@@ -8,7 +8,9 @@
 
 import Foundation
 
-struct FoodProfile: Codable{
+struct FoodProfile: Codable, DecodeModel{
+   
+    
     let diet: String
     let allergies: [String]
     let cuisines: [String]

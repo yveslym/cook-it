@@ -9,6 +9,7 @@
 import Foundation
 
 struct Recipe: Codable{
+    
     let id: Int
     let title: String
 //    var image: String?
@@ -35,8 +36,16 @@ struct Recipe: Codable{
     let occasions: [String]?
     let creditsText: String?
     let imageUrls: [String]?
+    
+    
 }
 
-struct SearchRecipeResult: Decodable{
-    let results: [Recipe]
+
+
+struct SearchRecipeResult: Decodable, DecodeModel{
+    var results: [Recipe]?
+    
+    init(){
+        self.results = nil
+    }
 }

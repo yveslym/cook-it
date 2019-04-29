@@ -44,21 +44,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let user = User.current
-        login()
-        //getData()
+        //let user = User.current
+        //login()
+        getData()
         
     }
     
     func login (){
-        let user = User.init(firstName: "yves", lastName: "Songolo", username: "yveslym", id: "")
-        let service = UserService()
+       // let user = User.init(firstName: "yves", lastName: "Songolo", username: "yveslym", id: "")
+       // let service = UserService()
 //        service.signIn(user)
     }
 
     func getData() {
-        
-        Network.FoodApi(service: .searchRecipe(query: "chicken")) { (result) in
+        let network = Network()
+        network.FoodApi(service: .searchRecipe(query: "chicken")) { (result) in
             switch result{
                 
             case .success(let food):
@@ -71,7 +71,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
         
-        Network.FoodApi(service: .recipeInformation(id: 892046)) { (result) in
+        network.FoodApi(service: .recipeInformation(id: 892046)) { (result) in
             print(result)
         }
     }

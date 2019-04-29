@@ -19,6 +19,7 @@
 		205F47122260092B006B8264 /* RecipeInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F47112260092B006B8264 /* RecipeInstruction.swift */; };
 		20BA28F6226D100A00A0E737 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA28F5226D100A00A0E737 /* Networking.swift */; };
 		20C9464A22763FF000494AD8 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C9464922763FF000494AD8 /* Environment.swift */; };
+		20C9464C2276472500494AD8 /* ProtocolLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C9464B2276472500494AD8 /* ProtocolLayerHelper.swift */; };
 		20E2EDF3225FAD2F000A4E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E2EDF2225FAD2F000A4E45 /* AppDelegate.swift */; };
 		20E2EDF5225FAD2F000A4E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E2EDF4225FAD2F000A4E45 /* ViewController.swift */; };
 		20E2EDF8225FAD2F000A4E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2EDF6225FAD2F000A4E45 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		205F47112260092B006B8264 /* RecipeInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInstruction.swift; sourceTree = "<group>"; };
 		20BA28F5226D100A00A0E737 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		20C9464922763FF000494AD8 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		20C9464B2276472500494AD8 /* ProtocolLayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolLayerHelper.swift; sourceTree = "<group>"; };
 		20E2EDEF225FAD2F000A4E45 /* cook-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cook-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E2EDF2225FAD2F000A4E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20E2EDF4225FAD2F000A4E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		205F471322600FF1006B8264 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				20C9464B2276472500494AD8 /* ProtocolLayerHelper.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				20E663E12270F13B0078EA79 /* Date+String+Extension.swift in Sources */,
 				20E908DA226E67850083B70D /* TestTableViewCell.swift in Sources */,
 				205F4707225FBDE6006B8264 /* FoodProfile.swift in Sources */,
+				20C9464C2276472500494AD8 /* ProtocolLayerHelper.swift in Sources */,
 				20E663E42270F13B0078EA79 /* UIView+Extension.swift in Sources */,
 				205F470B225FE7E6006B8264 /* Ingredient.swift in Sources */,
 				20E2EDF3225FAD2F000A4E45 /* AppDelegate.swift in Sources */,

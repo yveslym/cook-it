@@ -71,8 +71,8 @@ extension RecipeServices: TargetType{
         
         switch self{
         case .searchRecipe(_), .getRecipeInformation(_), .anilyzedRecipe(_), .recipeInformation(_):
-            
-            return ["Content-type": "application/json", "X-RapidAPI-Key": ""]
+            let rapidApiKey = Environment().configuration(.rapidApiKey)
+            return ["Content-type": "application/json", "X-RapidAPI-Key": rapidApiKey]
        
         }
     }

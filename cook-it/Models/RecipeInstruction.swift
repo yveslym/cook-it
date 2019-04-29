@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct RecipeInstruction : Codable {
+struct RecipeInstruction : Codable, DecodeModel{
     let name: String?
     let steps: [CookingStep]?
 
